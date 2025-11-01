@@ -29,10 +29,32 @@ body {
     width: 100%;
     height: 100%;
     padding: 60px;
-    background: white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.78)),
+                url('../img/Imagen2.png') center/cover no-repeat;
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(0,0,0,0.2);
     margin: 20px;
+.slide-1 .slide-content,
+.slide-1 .slide-content p,
+.slide-1 .slide-content h2,
+.slide-1 .slide-content h3,
+.slide-1 .slide-content h4 {
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.slide-1 .session-info,
+.slide-1 .session-details {
+    color: #fff !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+.slide-1 .summary-card {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #fff;
+}
+
     width: calc(100% - 40px);
     height: calc(100% - 40px);
     overflow: hidden;
@@ -51,7 +73,8 @@ body {
 
 /* Slide 1 - Title */
 .slide-1.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, rgba(15, 32, 128, 0.72), rgba(64, 0, 128, 0.72)),
+                url('../img/Imagen1.png') center/cover no-repeat;
     color: white;
     text-align: center;
     display: flex !important;
@@ -71,6 +94,11 @@ body {
     font-size: 2rem;
     opacity: 0.9;
     font-weight: 300;
+}
+
+.text-highlight {
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 .copilot-logo {
@@ -1325,4 +1353,39 @@ body {
 @keyframes shine {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(100%); }
+}
+
+.cta-slide {
+    background: linear-gradient(135deg, rgba(15, 32, 128, 0.72), rgba(64, 0, 128, 0.72)),
+                url('../img/Imagen1.png') center/cover no-repeat !important;
+    color: white;
+}
+
+.cta-slide .slide-content,
+.cta-slide .slide-content p,
+.cta-slide .slide-content h2,
+.cta-slide .slide-content h3,
+.cta-slide .slide-content h4,
+.cta-slide .slide-content li {
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.cta-slide .conclusion-item,
+.cta-slide .takeaway-item,
+.cta-slide .step-box,
+.cta-slide .resources ul li,
+.cta-slide .call-to-action,
+.cta-slide .conclusions,
+.cta-slide .key-takeaways,
+.cta-slide .next-steps,
+.cta-slide .resources {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.cta-slide .resources ul {
+    margin-left: 20px;
 }
