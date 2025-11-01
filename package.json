@@ -1,0 +1,26 @@
+{
+  "name": "copilot-presentations-en",
+  "version": "1.0.0",
+  "description": "English-language slide decks covering GitHub Copilot and Microsoft Copilot 365.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "GitHub Copilot",
+    "Microsoft Copilot 365",
+    "presentation",
+    "AI",
+    "developer productivity"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}
