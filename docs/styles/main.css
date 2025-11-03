@@ -20,20 +20,23 @@ body {
     position: relative;
     box-sizing: border-box;
 }
-
 .slide {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
     padding: 60px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.78)),
                 url('../img/Imagen2.png') center/cover no-repeat;
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(0,0,0,0.2);
     margin: 20px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
 .slide-1 .slide-content,
 .slide-1 .slide-content p,
 .slide-1 .slide-content h2,
@@ -53,12 +56,6 @@ body {
     background: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.25);
     color: #fff;
-}
-
-    width: calc(100% - 40px);
-    height: calc(100% - 40px);
-    overflow: hidden;
-    overflow-y: auto;
 }
 
 .slide.active {
@@ -1388,4 +1385,50 @@ body {
 
 .cta-slide .resources ul {
     margin-left: 20px;
+}
+
+@media print {
+    body {
+        background: #fff;
+        overflow: visible;
+        min-height: auto;
+    }
+
+    .slides-container {
+        width: auto;
+        height: auto;
+        position: static;
+        padding: 0;
+        margin: 0;
+    }
+
+    .slide {
+        display: block !important;
+        position: static;
+        top: auto;
+        left: auto;
+        width: auto;
+        height: auto;
+        margin: 0 0 20mm 0;
+        page-break-after: always;
+        box-shadow: none;
+        border-radius: 0;
+        background-size: cover;
+        overflow: visible;
+    }
+
+    .slide:last-of-type {
+        page-break-after: auto;
+    }
+
+    .slide-content {
+        overflow: visible !important;
+        max-height: none !important;
+        padding-right: 0;
+    }
+
+    .nav-controls,
+    .navigation {
+        display: none !important;
+    }
 }
