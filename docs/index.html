@@ -98,128 +98,534 @@
             </div>
         </div>
 
-        <!-- Slide 3: AI and Machine Learning -->
-        <div class="slide">
+        <!-- Slide 3: AI & LLM overview -->
+        <div class="slide slide-ai-llm">
             <div class="slide-content">
-                <h2>🧠 AI & Machine Learning Behind Copilot</h2>
-                <div class="tech-stack">
-                    <div class="layer">
-                        <div class="layer-header">User Experience Layer</div>
-                        <div class="layer-content">
-                            <span class="tech-badge">Microsoft 365 Apps</span>
-                            <span class="tech-badge">Teams</span>
-                            <span class="tech-badge">Outlook</span>
-                            <span class="tech-badge">Word</span>
+                <h2>🤖 AI & LLMs at a Glance</h2>
+                <p class="ai-llm-subtitle">Artificial Intelligence covers the techniques that mimic human capabilities; Large Language Models are a specific kind of AI that understands and generates natural language.</p>
+                <div class="ai-llm-grid">
+                    <div class="ai-card">
+                        <div class="ai-card-header">
+                            <span class="ai-card-icon">🧠</span>
+                            <h3>Artificial Intelligence</h3>
+                        </div>
+                        <p class="ai-card-description">Broad collection of algorithms and systems that perceive, reason, and act.</p>
+                        <ul class="ai-card-list">
+                            <li>Learns from data (vision, language, predictions).</li>
+                            <li>Combines rules with statistical models.</li>
+                            <li>Automates decisions, recommendations, and workflows.</li>
+                        </ul>
+                        <div class="ai-chip-row">
+                            <span class="ai-chip">Machine Learning</span>
+                            <span class="ai-chip">Classic AI</span>
+                            <span class="ai-chip">Robotics</span>
                         </div>
                     </div>
-                    <div class="arrow-down">↓</div>
-                    <div class="layer highlight">
-                        <div class="layer-header">AI Layer – Microsoft Copilot</div>
-                        <div class="layer-content">
-                            <span class="tech-badge">GPT-4</span>
-                            <span class="tech-badge">GPT-4 Turbo</span>
-                            <span class="tech-badge">DALL·E 3</span>
-                            <span class="tech-badge">Azure OpenAI</span>
+                    <div class="ai-card emphasis">
+                        <div class="ai-card-header">
+                            <span class="ai-card-icon">💬</span>
+                            <h3>Large Language Models (LLMs)</h3>
                         </div>
-                    </div>
-                    <div class="arrow-down">↓</div>
-                    <div class="layer">
-                        <div class="layer-header">Microsoft Graph</div>
-                        <div class="layer-content">
-                            <span class="tech-badge">Data</span>
-                            <span class="tech-badge">Email</span>
-                            <span class="tech-badge">Documents</span>
-                            <span class="tech-badge">Calendar</span>
-                        </div>
-                    </div>
-                    <div class="arrow-down">↓</div>
-                    <div class="layer">
-                        <div class="layer-header">Security & Governance</div>
-                        <div class="layer-content">
-                            <span class="tech-badge">Azure AD</span>
-                            <span class="tech-badge">DLP</span>
-                            <span class="tech-badge">Compliance</span>
+                        <p class="ai-card-description">AI models trained on trillions of words to understand and generate text.</p>
+                        <ul class="ai-card-list">
+                            <li>Take a prompt and predict the most likely next words.</li>
+                            <li>Use context to summarize, translate, and create content.</li>
+                            <li>Can be fine-tuned with proprietary data for specific tasks.</li>
+                        </ul>
+                        <div class="ai-chip-row">
+                            <span class="ai-chip highlight">GPT-4 / GPT-4o</span>
+                            <span class="ai-chip">Phi / Mistral</span>
+                            <span class="ai-chip">Domain models</span>
                         </div>
                     </div>
                 </div>
-                <div class="highlight-box">
-                    <h3>💡 Key Point</h3>
-                    <div class="insight-chips">
-                        <span class="insight-chip">LLMs • Trillions of parameters</span>
-                        <span class="insight-chip">Live context from Microsoft Graph</span>
-                        <span class="insight-chip">Security + Compliance built-in</span>
+                <div class="ai-llm-flow">
+                    <div class="ai-flow-step">
+                        <span class="ai-flow-icon">📂</span>
+                        <h4>Data + Examples</h4>
+                        <p>Documents, code, conversations, and rules feed the model.</p>
+                    </div>
+                    <div class="ai-flow-arrow">→</div>
+                    <div class="ai-flow-step core">
+                        <span class="ai-flow-icon">⚙️</span>
+                        <h4>LLM Engine</h4>
+                        <p>Finds language patterns to predict relevant, coherent text.</p>
+                    </div>
+                    <div class="ai-flow-arrow">→</div>
+                    <div class="ai-flow-step">
+                        <span class="ai-flow-icon">🚀</span>
+                        <h4>Copilot Experiences</h4>
+                        <p>Contextual responses, automation, and content generation.</p>
                     </div>
                 </div>
-                <div class="architecture-visual">
-                    <div class="architecture-layer">
-                        <span class="layer-label">Living Experience</span>
-                        <div class="layer-meta">Copilot inside Microsoft 365</div>
-                    </div>
-                    <div class="architecture-connector"></div>
-                    <div class="architecture-layer core">
-                        <span class="layer-label">LLM Models</span>
-                        <div class="layer-meta">GPT-4 • Custom Models</div>
-                    </div>
-                    <div class="architecture-connector"></div>
-                    <div class="architecture-layer">
-                        <span class="layer-label">Microsoft Graph</span>
-                        <div class="layer-meta">Data • Permissions • Context</div>
-                    </div>
-                    <div class="architecture-shadow"></div>
+                <div class="ai-llm-footnote">
+                    <span class="ai-footnote-icon">💡</span>
+                    <p>Think of LLMs as the language engine that powers the broader Microsoft AI ecosystem.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 4: Machine Learning Process -->
-        <div class="slide">
+        <!-- Slide 3: Copilot Platform Architecture -->
+        <div class="slide slide-copilot-architecture">
             <div class="slide-content">
-                <h2>🔬 Machine Learning Flow in Copilot</h2>
-                <div class="ml-orbit">
-                    <div class="orbit-core">AI Engine</div>
-                    <div class="orbit-ring ring-prompt">
-                        <span>🗣️ Prompt</span>
+                <h2>🧠 What Powers Copilot 365?</h2>
+                <p class="architecture-subtitle">Each layer adds context, intelligence, and guardrails so prompts become enterprise-ready actions.</p>
+                <div class="architecture-grid">
+                    <div class="architecture-card experience">
+                        <div class="architecture-icon">🎯</div>
+                        <h3>Experience Layer</h3>
+                        <p>Where users engage with Copilot inside the apps they already use.</p>
+                        <div class="architecture-chips">
+                            <span>Teams</span>
+                            <span>Outlook</span>
+                            <span>Word</span>
+                            <span>Excel</span>
+                            <span>PowerPoint</span>
+                        </div>
                     </div>
-                    <div class="orbit-ring ring-tokens">
-                        <span>🔤 Tokens</span>
+                    <div class="architecture-card ai">
+                        <div class="architecture-icon">🧠</div>
+                        <h3>AI Orchestration</h3>
+                        <p>Azure OpenAI LLMs plus the Copilot orchestration stack interpret intent.</p>
+                        <div class="architecture-chips">
+                            <span>GPT-4 Turbo</span>
+                            <span>Semantic Index</span>
+                            <span>Copilot Studio</span>
+                            <span>Plugins</span>
+                        </div>
                     </div>
-                    <div class="orbit-ring ring-context">
-                        <span>🧭 Context</span>
+                    <div class="architecture-card data">
+                        <div class="architecture-icon">📚</div>
+                        <h3>Business Context</h3>
+                        <p>Grounding data pulled securely through Microsoft Graph and connectors.</p>
+                        <div class="architecture-chips">
+                            <span>Files</span>
+                            <span>Emails</span>
+                            <span>SharePoint</span>
+                            <span>Dynamics</span>
+                            <span>Dataverse</span>
+                        </div>
                     </div>
-                    <div class="orbit-ring ring-output">
-                        <span>✨ Output</span>
+                    <div class="architecture-card security">
+                        <div class="architecture-icon">🔐</div>
+                        <h3>Security & Compliance</h3>
+                        <p>Enterprise controls preserve permissions and meet regulatory requirements.</p>
+                        <div class="architecture-chips">
+                            <span>Entra ID</span>
+                            <span>DLP</span>
+                            <span>Purview</span>
+                            <span>Audit</span>
+                        </div>
                     </div>
                 </div>
-                <div class="tech-details">
-                    <div class="tech-card">
-                        <h4>🔢 Model Parameters</h4>
-                        <p class="big-stat">1.76 Trillion</p>
-                        <p>GPT-4 Turbo</p>
+                <div class="architecture-flow">
+                    <div class="flow-segment">
+                        <div class="segment-number">1</div>
+                        <h4>Capture & Intent</h4>
+                        <p>User prompt collected inside Microsoft 365.</p>
                     </div>
-                    <div class="tech-card">
-                        <h4>⚡ Processing Speed</h4>
-                        <p class="big-stat">~50 tokens/sec</p>
-                        <p>Real time</p>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-segment">
+                        <div class="segment-number">2</div>
+                        <h4>Grounding</h4>
+                        <p>Copilot fetches relevant data via Graph & connectors.</p>
                     </div>
-                    <div class="tech-card">
-                        <h4>🎯 Context Accuracy</h4>
-                        <p class="big-stat">94.2%</p>
-                        <p>Enterprise tasks</p>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-segment">
+                        <div class="segment-number">3</div>
+                        <h4>LLM Reasoning</h4>
+                        <p>Azure OpenAI models craft the answer using grounded knowledge.</p>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-segment">
+                        <div class="segment-number">4</div>
+                        <h4>Delivery & Controls</h4>
+                        <p>Response returns to the app with policies and citations applied.</p>
                     </div>
                 </div>
-                <div class="ml-flow-canvas">
-                    <div class="flow-ring input">Prompt</div>
-                    <div class="flow-ring context">Context</div>
-                    <div class="flow-ring engine">AI Engine</div>
-                    <div class="flow-ring output">Result</div>
-                    <svg class="flow-lines" viewBox="0 0 400 160" preserveAspectRatio="none">
-                        <path d="M20 80 C80 20, 160 20, 200 80" />
-                        <path d="M200 80 C240 140, 320 140, 380 80" />
-                    </svg>
+                <div class="architecture-pillars">
+                    <div class="pillar-card">
+                        <span class="pillar-icon">⚙️</span>
+                        <h4>Reusable Connectors</h4>
+                        <p>Built once, available across Teams, Outlook, and custom copilots.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <span class="pillar-icon">🧭</span>
+                        <h4>Grounded AI</h4>
+                        <p>Answers are anchored to your tenant data to stay accurate.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <span class="pillar-icon">🛡️</span>
+                        <h4>Responsible AI</h4>
+                        <p>Safety filters, audit logs, and human-in-the-loop controls.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 5: Prompt Engineering Intro -->
+    <!-- Slide 4: Copilot Intelligence Pipeline -->
+        <div class="slide slide-copilot-lifecycle">
+            <div class="slide-content">
+                <h2>🔬 Copilot Intelligence Pipeline</h2>
+                <p class="lifecycle-subtitle">From prompt to action, Copilot follows a governed loop that blends Microsoft Graph, AI models, and user feedback.</p>
+                <div class="lifecycle-diagram">
+                    <div class="lifecycle-step intake">
+                        <div class="step-number">1</div>
+                        <h3>Prompt Intake</h3>
+                        <p>Copilot captures the request, role, and context from the app.</p>
+                        <span class="step-chip">Natural language</span>
+                    </div>
+                    <div class="lifecycle-connector">➜</div>
+                    <div class="lifecycle-step grounding">
+                        <div class="step-number">2</div>
+                        <h3>Grounding & Retrieval</h3>
+                        <p>Graph, search, and connectors retrieve the most relevant data.</p>
+                        <span class="step-chip">Graph grounding</span>
+                    </div>
+                    <div class="lifecycle-connector">➜</div>
+                    <div class="lifecycle-step reasoning">
+                        <div class="step-number">3</div>
+                        <h3>LLM Reasoning</h3>
+                        <p>Azure OpenAI models plan, reason, and draft the response.</p>
+                        <span class="step-chip">GPT-4 Turbo</span>
+                    </div>
+                    <div class="lifecycle-connector">➜</div>
+                    <div class="lifecycle-step guardrails">
+                        <div class="step-number">4</div>
+                        <h3>Safety & Policies</h3>
+                        <p>Responsible AI, DLP, and policy checks validate the output.</p>
+                        <span class="step-chip">Compliance</span>
+                    </div>
+                    <div class="lifecycle-connector">➜</div>
+                    <div class="lifecycle-step delivery">
+                        <div class="step-number">5</div>
+                        <h3>Action & Feedback</h3>
+                        <p>Response is delivered with citations and tracks user feedback.</p>
+                        <span class="step-chip">Adaptive cards</span>
+                    </div>
+                </div>
+                <div class="lifecycle-lanes">
+                    <div class="lane-card">
+                        <h4>System Brains</h4>
+                        <ul>
+                            <li>Planner coordinates multi-step tasks.</li>
+                            <li>Azure AI Content Safety filters sensitive content.</li>
+                            <li>Semantic cache speeds up repeated prompts.</li>
+                        </ul>
+                    </div>
+                    <div class="lane-card">
+                        <h4>Data Operations</h4>
+                        <ul>
+                            <li>Tenant isolation ensures data never leaves your boundary.</li>
+                            <li>Connectors tie into SharePoint, SAP, ServiceNow, and more.</li>
+                            <li>Signals enrich prompts with files, meetings, and chats.</li>
+                        </ul>
+                    </div>
+                    <div class="lane-card">
+                        <h4>Quality Loop</h4>
+                        <ul>
+                            <li>User feedback tunes prompts and orchestrations.</li>
+                            <li>Evaluators score accuracy, tone, and safety.</li>
+                            <li>Continuous learning updates grounding data.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lifecycle-metrics">
+                    <div class="metric-chip">⏱️ Response time target: &lt; 3s</div>
+                    <div class="metric-chip">🎯 Relevance score: &gt; 90%</div>
+                    <div class="metric-chip">🛡️ Safety overrides when policy triggered</div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Slide 5: Copilot Studio Overview -->
+            <div class="slide slide-copilot-studio">
+                <div class="slide-content">
+                    <div class="studio-hero">
+                        <div class="studio-label">Built by Microsoft</div>
+                        <h2>🛠️ Copilot Studio</h2>
+                        <p class="studio-subtitle">Formerly Power Virtual Agents and now your canvas for intelligent copilots</p>
+                        <div class="studio-pills">
+                            <span>No-Code</span>
+                            <span>Low-Code</span>
+                            <span>Chatbots</span>
+                            <span>API Ready</span>
+                        </div>
+                        <div class="studio-hero-glow"></div>
+                    </div>
+                    <div class="studio-body">
+                        <div class="studio-column">
+                            <div class="studio-card">
+                                <h3>From Power Virtual Agents</h3>
+                                <p class="studio-card-subtitle">Same trusted engine, elevated capabilities</p>
+                                <ul class="studio-list">
+                                    <li>Purpose-built by Microsoft to orchestrate conversational AI.</li>
+                                    <li>Rebranded to align with the Copilot family experience.</li>
+                                    <li>Inheritance of battle-tested bot authoring and governance.</li>
+                                </ul>
+                            </div>
+                            <div class="studio-card">
+                                <h3>Low-Code to Pro-Code</h3>
+                                <ul class="studio-list">
+                                    <li>Lets teams create AI agents with intuitive no-code designers.</li>
+                                    <li>Low-code skills and reusable components for richer journeys.</li>
+                                    <li>API access unlocks advanced integrations for developers.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="studio-column">
+                            <div class="studio-diagram">
+                                <div class="diagram-node core">
+                                    <span>Copilot Studio</span>
+                                </div>
+                                <div class="diagram-node node-top">
+                                    <span>Design Chatbots</span>
+                                </div>
+                                <div class="diagram-node node-right">
+                                    <span>Extend with APIs</span>
+                                </div>
+                                <div class="diagram-node node-bottom">
+                                    <span>Publish Everywhere</span>
+                                </div>
+                                <div class="diagram-node node-left">
+                                    <span>No-Code Builder</span>
+                                </div>
+                                <svg class="diagram-lines" viewBox="0 0 400 400" preserveAspectRatio="none">
+                                    <circle cx="200" cy="200" r="120"></circle>
+                                    <line x1="200" y1="200" x2="200" y2="80"></line>
+                                    <line x1="200" y1="200" x2="320" y2="200"></line>
+                                    <line x1="200" y1="200" x2="200" y2="320"></line>
+                                    <line x1="200" y1="200" x2="80" y2="200"></line>
+                                </svg>
+                            </div>
+                            <div class="studio-footnote">
+                                <span class="footnote-icon">🚀</span>
+                                <p>Create guided agents, automate conversations, and escalate to human experts without leaving the Microsoft ecosystem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studio-matrix">
+                        <div class="matrix-tile">
+                            <span class="matrix-icon">🎯</span>
+                            <div>
+                                <h4>Business Ready</h4>
+                                <p>Launch production copilots in hours with enterprise-grade controls.</p>
+                            </div>
+                        </div>
+                        <div class="matrix-tile">
+                            <span class="matrix-icon">🤝</span>
+                            <div>
+                                <h4>Integrated</h4>
+                                <p>Connect to Microsoft 365, Dynamics 365, and third-party systems.</p>
+                            </div>
+                        </div>
+                        <div class="matrix-tile">
+                            <span class="matrix-icon">🧠</span>
+                            <div>
+                                <h4>AI Infused</h4>
+                                <p>Combine orchestration, natural language, and enterprise context.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Slide 6: Agent Differences -->
+        <div class="slide slide-agent-diff">
+            <div class="slide-content">
+                <h2>🧩 Agent Differences</h2>
+                <p class="agent-diff-subtitle">Choose the right flavor based on personalization needs, build time, and who is crafting the solution.</p>
+                <div class="agent-type-grid">
+                    <div class="agent-type-card">
+                        <div class="agent-icon">✅</div>
+                        <span class="agent-badge">Developer level</span>
+                        <h3>OpenAI API Assistants</h3>
+                        <ul class="agent-highlights">
+                            <li><span>🛠️</span> Full control over behavior</li>
+                            <li><span>🧩</span> Advanced logic & multi-step orchestration</li>
+                            <li><span>🔌</span> Deep integrations with custom APIs</li>
+                            <li><span>🧑‍💻</span> Built by engineering teams</li>
+                        </ul>
+                        <div class="agent-use-case">
+                            <h4>Use when</h4>
+                            <div class="agent-chip-row">
+                                <span class="agent-chip">Complex automation</span>
+                                <span class="agent-chip">Proprietary data</span>
+                                <span class="agent-chip">Technical ownership</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="agent-type-card">
+                        <div class="agent-icon">✅</div>
+                        <span class="agent-badge">No-code / Low-code</span>
+                        <h3>Copilot Studio</h3>
+                        <ul class="agent-highlights">
+                            <li><span>💬</span> Design copilots with natural language</li>
+                            <li><span>🔄</span> Connect to internal data (SharePoint, CRM)</li>
+                            <li><span>🔓</span> Extend with APIs when needed</li>
+                            <li><span>⚡</span> Ship enterprise copilots fast</li>
+                        </ul>
+                        <div class="agent-use-case">
+                            <h4>Use when</h4>
+                            <div class="agent-chip-row">
+                                <span class="agent-chip">Business automation</span>
+                                <span class="agent-chip">Citizen builders</span>
+                                <span class="agent-chip">Rapid deployment</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="agent-type-card">
+                        <div class="agent-icon">✅</div>
+                        <span class="agent-badge">Daily productivity</span>
+                        <h3>Copilot 365</h3>
+                        <ul class="agent-highlights">
+                            <li><span>📬</span> Summarizes mail and meetings</li>
+                            <li><span>📑</span> Drafts documents and presentations</li>
+                            <li><span>📊</span> Surfaces insights ready to share</li>
+                            <li><span>🚀</span> Works out of the box</li>
+                        </ul>
+                        <div class="agent-use-case">
+                            <h4>Use when</h4>
+                            <div class="agent-chip-row">
+                                <span class="agent-chip">Personal productivity</span>
+                                <span class="agent-chip">Microsoft 365 teams</span>
+                                <span class="agent-chip">Instant outcomes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="agent-analogy-grid">
+                    <div class="analogy-item">
+                        <div class="analogy-icon">🤖</div>
+                        <h4>Build from scratch</h4>
+                        <p>Engineers craft bespoke copilots with total control.</p>
+                    </div>
+                    <div class="analogy-item">
+                        <div class="analogy-icon">🏗️</div>
+                        <h4>Assemble without code</h4>
+                        <p>Business teams launch secure copilots in days.</p>
+                    </div>
+                    <div class="analogy-item">
+                        <div class="analogy-icon">🧑‍🤝‍🧑</div>
+                        <h4>Assistant on tap</h4>
+                        <p>Every Microsoft 365 user gets help inside daily apps.</p>
+                    </div>
+                </div>
+                <div class="agent-message">
+                    <div class="message-icon">🧠</div>
+                    <p>All three are powerful: Copilot 365 is ready to use, Copilot Studio lets you build without code, and OpenAI Assistants deliver full engineering control.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Copilot Ecosystem -->
+            <div class="slide slide-copilot-ecosystem">
+                <div class="slide-content">
+                    <h2>🌐 Copilot Ecosystem</h2>
+                    <p class="ecosystem-subtitle">365 delivers the experience to users, Studio orchestrates the agents, and GitHub Copilot builds the logic.</p>
+                    <div class="ecosystem-grid">
+                        <div class="ecosystem-card">
+                            <div class="ecosystem-icon">365</div>
+                            <h3>Copilot 365</h3>
+                            <p class="ecosystem-tagline">Assistant living inside Word, Outlook, Excel, PowerPoint, and Teams.</p>
+                            <div class="ecosystem-points">
+                                <span class="ecosystem-chip">✍️ Writes</span>
+                                <span class="ecosystem-chip">📬 Summarizes</span>
+                                <span class="ecosystem-chip">📊 Analyzes</span>
+                                <span class="ecosystem-chip">🎞️ Creates slides</span>
+                            </div>
+                            <div class="ecosystem-example">
+                                <span class="example-label">Example</span>
+                                <p>"Draft a friendly email inviting the team to Monday's meeting" → Copilot generates it and you just review and send.</p>
+                            </div>
+                        </div>
+                        <div class="ecosystem-card">
+                            <div class="ecosystem-icon">Studio</div>
+                            <h3>Copilot Studio</h3>
+                            <p class="ecosystem-tagline">Build conversational copilots with a no-code experience.</p>
+                            <div class="ecosystem-points">
+                                <span class="ecosystem-chip">🤝 Customer service</span>
+                                <span class="ecosystem-chip">💬 Employee FAQs</span>
+                                <span class="ecosystem-chip">🗂️ Data sources</span>
+                                <span class="ecosystem-chip">🧩 API ready</span>
+                            </div>
+                            <div class="ecosystem-example">
+                                <span class="example-label">Example</span>
+                                <p>Website chatbot answers opening hours, location, and request steps with zero code.</p>
+                            </div>
+                        </div>
+                        <div class="ecosystem-card">
+                            <div class="ecosystem-icon">GitHub</div>
+                            <h3>GitHub Copilot</h3>
+                            <p class="ecosystem-tagline">Assistant that suggests, explains, and tests code.</p>
+                            <div class="ecosystem-points">
+                                <span class="ecosystem-chip">⚙️ Autocompletes</span>
+                                <span class="ecosystem-chip">🧠 Explains</span>
+                                <span class="ecosystem-chip">🛡️ Suggests tests</span>
+                                <span class="ecosystem-chip">🚀 Multi-language</span>
+                            </div>
+                            <pre class="ecosystem-snippet"><code>def sum_list(numbers):
+        return sum(numbers)</code></pre>
+                            <div class="ecosystem-example">
+                                <span class="example-label">Example</span>
+                                <p>Suggests the function and explains what it does while you code.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ecosystem-flow">
+                        <div class="flow-item">
+                            <div class="flow-icon">1</div>
+                            <h4>GitHub Copilot</h4>
+                            <p>Builds the API or service that hosts the business logic.</p>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-item">
+                            <div class="flow-icon">2</div>
+                            <h4>Copilot Studio</h4>
+                            <p>Connects the API, designs the chatbot, and automates responses.</p>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-item">
+                            <div class="flow-icon">3</div>
+                            <h4>Copilot 365</h4>
+                            <p>End users interact from Teams, Outlook, or Word.</p>
+                        </div>
+                    </div>
+                    <div class="ecosystem-architecture">
+                        <h3>🔗 Architecture Vision</h3>
+                        <div class="arch-stack">
+                            <div class="arch-layer top">
+                                <span class="arch-label">Business users</span>
+                                <span class="arch-note">Operate in Teams • Outlook • Word</span>
+                            </div>
+                            <div class="arch-connector">↓</div>
+                            <div class="arch-layer">
+                                <span class="arch-label">Copilot 365</span>
+                                <span class="arch-note">Consumes and delivers outcomes</span>
+                            </div>
+                            <div class="arch-connector">↓</div>
+                            <div class="arch-layer highlight">
+                                <span class="arch-label">Copilot Studio</span>
+                                <span class="arch-note">Orchestrates agents, actions, and connectors</span>
+                            </div>
+                            <div class="arch-connector">↓</div>
+                            <div class="arch-layer bottom">
+                                <span class="arch-label">Services / APIs</span>
+                                <span class="arch-note">Designed with GitHub Copilot</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ecosystem-summary">
+                        <span>GitHub Copilot</span>
+                        <span class="summary-arrow">→</span>
+                        <span>Copilot Studio</span>
+                        <span class="summary-arrow">→</span>
+                        <span>Copilot 365</span>
+                    </div>
+                </div>
+            </div>
+
+    <!-- Slide 8: Prompt Engineering Intro -->
         <div class="slide">
             <div class="slide-content">
                 <h2>✍️ Prompt Engineering: The Art of Talking to AI</h2>
@@ -293,7 +699,93 @@
             </div>
         </div>
 
-        <!-- Slide 6: Good vs Bad Prompts -->
+    <!-- Slide 9: Agent Use Cases Overview -->
+        <div class="slide slide-use-cases">
+            <div class="slide-content">
+                <h2>🎯 Agent Use Cases</h2>
+                <p class="use-cases-subtitle">Now that we understand what agents are, let's explore where we can deploy them across the enterprise.</p>
+                <div class="use-cases-grid">
+                    <div class="use-case-card">
+                        <div class="use-case-icon">🗂️</div>
+                        <h3>Project Management</h3>
+                        <ul class="use-case-benefits">
+                            <li>Collects team updates</li>
+                            <li>Identifies milestones & blockers</li>
+                            <li>Drafts progress reports</li>
+                        </ul>
+                        <div class="use-case-role">
+                            <span class="role-badge">🤖 Digital TPM</span>
+                        </div>
+                    </div>
+                    <div class="use-case-card">
+                        <div class="use-case-icon">🎧</div>
+                        <h3>Customer Support</h3>
+                        <ul class="use-case-benefits">
+                            <li>Finds previous answers</li>
+                            <li>Drafts new solutions</li>
+                            <li>Resolves queries autonomously</li>
+                        </ul>
+                        <div class="use-case-role">
+                            <span class="role-badge">💡 Knowledge base</span>
+                        </div>
+                    </div>
+                    <div class="use-case-card">
+                        <div class="use-case-icon">🔬</div>
+                        <h3>Research & Development</h3>
+                        <ul class="use-case-benefits">
+                            <li>Explores papers & patents</li>
+                            <li>Synthesizes trends</li>
+                            <li>Accelerates early innovation</li>
+                        </ul>
+                        <div class="use-case-role">
+                            <span class="role-badge">📊 Technical analyst</span>
+                        </div>
+                    </div>
+                    <div class="use-case-card">
+                        <div class="use-case-icon">💼</div>
+                        <h3>Sales & Marketing</h3>
+                        <ul class="use-case-benefits">
+                            <li>Researches competition</li>
+                            <li>Analyzes commercial strategies</li>
+                            <li>Recommends marketing plans</li>
+                        </ul>
+                        <div class="use-case-role">
+                            <span class="role-badge">📈 Market analyst</span>
+                        </div>
+                    </div>
+                    <div class="use-case-card">
+                        <div class="use-case-icon">👥</div>
+                        <h3>Human Resources</h3>
+                        <ul class="use-case-benefits">
+                            <li>Drafts manuals</li>
+                            <li>Ensures regulatory compliance</li>
+                            <li>Creates onboarding content</li>
+                        </ul>
+                        <div class="use-case-role">
+                            <span class="role-badge">📝 Talent assistant</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="use-cases-diagram">
+                    <div class="diagram-center">
+                        <span class="diagram-core-icon">🤖</span>
+                        <h4>AI Agent</h4>
+                    </div>
+                    <div class="diagram-connections">
+                        <div class="connection-line" style="--angle: 0deg;"></div>
+                        <div class="connection-line" style="--angle: 72deg;"></div>
+                        <div class="connection-line" style="--angle: 144deg;"></div>
+                        <div class="connection-line" style="--angle: 216deg;"></div>
+                        <div class="connection-line" style="--angle: 288deg;"></div>
+                    </div>
+                </div>
+                <div class="use-cases-footer">
+                    <p>💡 Agents aren't limited to specific areas — they adapt to virtually any business domain.</p>
+                </div>
+            </div>
+        </div>
+
+    <!-- Slide 10: Good vs Bad Prompts -->
         <div class="slide">
             <div class="slide-content">
                 <h2>❌ ✅ Good vs Poor Prompts</h2>
@@ -366,7 +858,7 @@
             </div>
         </div>
 
-        <!-- Slide 7: Advanced Prompting Techniques -->
+    <!-- Slide 10: Advanced Prompting Techniques -->
         <div class="slide">
             <div class="slide-content">
                 <h2>🚀 Advanced Prompting Techniques</h2>
@@ -459,7 +951,7 @@
             </div>
         </div>
 
-        <!-- Slide 8: AI Agents Intro -->
+    <!-- Slide 11: AI Agents Intro -->
         <div class="slide">
             <div class="slide-content">
                 <h2>🤖 AI Agents in Copilot 365</h2>
@@ -525,7 +1017,7 @@
             </div>
         </div>
 
-        <!-- Slide 9: PDF Analysis Agents -->
+    <!-- Slide 12: PDF Analysis Agents -->
         <div class="slide">
             <div class="slide-content">
                 <h2>📄 Agents for PDF Analysis</h2>
@@ -594,7 +1086,7 @@
             </div>
         </div>
 
-        <!-- Slide 10: Email Agents -->
+    <!-- Slide 13: Email Agents -->
         <div class="slide">
             <div class="slide-content">
                 <h2>📧 Smart Email Management Agents</h2>
@@ -687,7 +1179,7 @@
             </div>
         </div>
 
-        <!-- Slide 11: Market Research Agents -->
+    <!-- Slide 14: Market Research Agents -->
         <div class="slide">
             <div class="slide-content">
                 <h2>📊 Market Research with AI Agents</h2>
@@ -775,7 +1267,7 @@
             </div>
         </div>
 
-        <!-- Slide 12: Surprise Features -->
+    <!-- Slide 15: Surprise Features -->
         <div class="slide">
             <div class="slide-content">
                 <h2>✨ Surprise Features You Should Know</h2>
@@ -867,7 +1359,7 @@
             </div>
         </div>
 
-        <!-- Slide 13: Prep for Session 2 -->
+    <!-- Slide 16: Prep for Session 2 -->
         <div class="slide">
             <div class="slide-content">
                 <h2>🛠️ Preparation for Session 2: Building Agents</h2>
@@ -970,7 +1462,7 @@
             </div>
         </div>
 
-        <!-- Slide 14: Conclusions -->
+    <!-- Slide 17: Conclusions -->
         <div class="slide cta-slide">
             <div class="slide-content">
                 <h2>🚀 Conclusions – Advanced Masterclass</h2>
@@ -1065,7 +1557,7 @@
         <span class="slide-counter">
             <span id="current-slide">1</span>
             <span>/</span>
-            <span id="total-slides">14</span>
+            <span id="total-slides">17</span>
         </span>
         <button id="next-btn" class="nav-btn">Next →</button>
     </div>
